@@ -9,10 +9,10 @@ from Crypto.Hash import SHA256, HMAC
 
 
 class Instagram:
-    def __init__(self, username, password):
+    def __init__(self, mariam_darabseh, 0785579996):
         self.session = requests.session()
         self.username = username
-        self.password = password
+        self.password = 0785579996
         self.device_id = "DADA237D-CB58-4D4D-8096-2F5E172921A3"
         self.pk = None
         self.csrftoken = None
